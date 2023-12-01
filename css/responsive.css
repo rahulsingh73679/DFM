@@ -1,0 +1,594 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .Buildo-mainmenu {
+        text-align: center
+    }
+    .Buildo-mainmenu ul li a {
+        padding: 31px 5px
+    }
+    .hire-icon {
+        display: none
+    }
+    .Buildo-hire-left>h3 {
+        left: 0
+    }
+    .pro-img {
+        margin-right: 5px;
+        widows: 60px
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    html,
+    body {
+        overflow-x: hidden
+    }
+    .Buildo-responsive-menu {
+        display: none
+    }
+    .Buildo-mainmenu {
+        display: block;
+        text-align: center
+    }
+    .Buildo-mainmenu ul li a {
+        padding: 30px 7px
+    }
+    header .Buildo-logo {
+        padding-right: 0;
+        text-align: center;
+    }
+    .seacrh_li {
+        display: block
+    }
+    .Buildo-header-top-area {
+        text-align: center
+    }
+    .header-top-language {
+        margin: 10px 0
+    }
+    .header-top-right {
+        float: none
+    }
+    .stuck {
+        position: static
+    }
+    .sticky {
+        transition: all 0s ease-in-out 0s
+    }
+    .mainmenu-overlay {
+        top: 23%
+    }
+    .mainmenu-overlay2 {
+        top: 23%
+    }
+    .Buildo-hire-area .Buildo-hire-left::before {
+        right: -200px
+    }
+    .element-item {
+        width: 50%
+    }
+    .project-img-overlay>p {
+        line-height: 14
+    }
+    .Buildo-hire-right {
+        text-align: center
+    }
+    .process-company .single-process {
+        width: 400px
+    }
+    .single-process {
+        width: 400px;
+        margin: 0 auto
+    }
+    .single-footer {
+        margin: 50px 0
+    }
+    .about-right {
+        margin-top: 30px
+    }
+    .about-mission-text,
+    .about-mission-list {
+        margin-top: 30px
+    }
+    .mobile-top {
+        margin-top: 30px
+    }
+    .blog-bg-overlay>p {
+        left: 37%;
+        position: absolute;
+        top: 44%;
+    }
+    .single-pro-overlay i {
+        position: absolute;
+        top: 45%;
+        left: 47%
+    }
+    .mobile-bottom {
+        margin-bottom: 30px
+    }
+    .Buildo-login {
+        margin-top: 30px
+    }
+    .element-item:last-child {
+        display: none;
+    }
+    .single-shop-text {
+        margin-top: 30px
+    }
+    .single-comment-item img {
+        margin-bottom: 10px
+    }
+    .Buildo-leave-comment input[type="text"],
+    .Buildo-leave-comment input[type="email"] {
+        width: 47%
+    }
+    .Buildo-leave-comment textarea {
+        width: 97%
+    }
+    .Buildo-contact-form-right>form {
+        margin-top: 50px
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    html,
+    body {
+        overflow-x: hidden
+    }
+    .Buildo-responsive-menu {
+        display: block
+    }
+    .header-top-right {
+        float: none
+    }
+    .Buildo-section-title {
+        margin-bottom: 10%
+    }
+    .Buildo-mainmenu {
+        display: none
+    }
+    header .Buildo-logo {
+        padding: 26px 0 26px 30px;
+        text-align: left;
+    }
+    .seacrh_li {
+        display: none !important
+    }
+    .Buildo-logo img {
+        z-index: 9999
+    }
+    .Buildo-header-top-area {
+        text-align: center
+    }
+    .header-top-language {
+        margin: 10px 0
+    }
+    .single-top-right {
+        padding-right: 0;
+        margin: 5px 0
+    }
+    .Buildo-main-slide {
+        height: 380px
+    }
+    .Buildo-caption-cell {
+        text-align: center
+    }
+    .Buildo-caption-cell h2 {
+        font-size: 30px
+    }
+    .Buildo-caption-cell p {
+        font-size: 17px;
+    }
+    .about-bottom-one>h3 {
+        font-size: 20px
+    }
+    .about_list {
+        margin-bottom: 20px
+    }
+    .project-btn>a {
+        display: block;
+        margin: 5px 0
+    }
+    .stuck {
+        position: static
+    }
+    .sticky {
+        transition: all 0s ease 0s
+    }
+    .element-item {
+        width: 100%
+    }
+    .project-img-overlay>p {
+        line-height: 15
+    }
+    .hire-icon {
+        display: none
+    }
+    .Buildo-hire-left>h3 {
+        left: 0;
+        text-align: center
+    }
+    .Buildo-hire-right {
+        text-align: center
+    }
+    .process-company .single-process {
+        width: 100%
+    }
+    .single-footer {
+        margin: 40px 0
+    }
+    .copyright-left {
+        text-align: center
+    }
+    .copyright-right {
+        text-align: center
+    }
+    .breadcromb-left,
+    .Buildo-About-promo-area,
+    .about-left>.Buildo-section-title {
+        text-align: center
+    }
+    .breadcromb-right {
+        text-align: center;
+        margin-top: 10px
+    }
+    .about-left>.Buildo-section-title .title-line {
+        margin: 0 auto
+    }
+    .about-left>h3 {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .about-right {
+        margin-top: 30px
+    }
+    .about-mission-text,
+    .about-mission-list {
+        margin-top: 30px
+    }
+    .project-btn {
+        margin-top: 0
+    }
+    .single-pro-overlay {
+        padding: 100px
+    }
+    .project-text-sin:first-child {
+        margin-top: 20px
+    }
+    .mobile-top {
+        margin-top: 30px
+    }
+    .mobile-bottom {
+        margin-bottom: 30px
+    }
+    .single-service-float>h3 {
+        font-size: 20px;
+        margin-bottom: 10px
+    }
+    .notfound>h2 {
+        font-size: 100px;
+        line-height: 100px;
+        margin-bottom: 15px
+    }
+    .notfound>h3 {
+        font-size: 19px
+    }
+    .coupon-cart-left {
+        text-align: center
+    }
+    .coupon-cart-right,
+    .proceed-checkout {
+        text-align: center;
+        margin-top: 20px
+    }
+    .coupon-cart-right>a {
+        margin-right: 0
+    }
+    .single-shipping input {
+        margin-bottom: 10px
+    }
+    .shipping-submit {
+        text-align: center
+    }
+    .single-shipping button {
+        float: none;
+        margin-right: 0
+    }
+    .checkout-form-right {
+        margin-bottom: 30px
+    }
+    .Buildo-login {
+        margin-top: 30px
+    }
+    .shorting {
+        text-align: center
+    }
+    .shorting form {
+        float: none
+    }
+    .shop-overlay-1 {
+        top: 35%
+    }
+    .single-shop-text {
+        margin-top: 20px
+    }
+    .Buildo-blog-share>h3 {
+        font-size: 18px;
+        margin-right: 5px
+    }
+    .Buildo-blog-share>a {
+        margin: 0 2px
+    }
+    .single-blog-item-date>p {
+        bottom: -25px;
+        font-size: 16px;
+        height: 65px;
+        width: 65px
+    }
+    .single-blog-item-date>p>span {
+        font-size: 20px;
+        line-height: 22px
+    }
+    .blog-title>h3 {
+        margin-top: 30px
+    }
+    .single-comment-item img {
+        margin-bottom: 20px
+    }
+    .comment-list ul ul {
+        margin-left: 40px
+    }
+    .Buildo-leave-comment input[type="text"],
+    .Buildo-leave-comment input[type="email"] {
+        width: 100%
+    }
+    .Buildo-leave-comment textarea {
+        width: 100%
+    }
+    .Buildo-contact-desc>h3 {
+        font-size: 20px
+    }
+    .Buildo-contact-form-right>form {
+        margin-top: 50px
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    html,
+    body {
+        overflow-x: hidden
+    }
+    .Buildo-responsive-menu {
+        display: block
+    }
+    .header-top-right {
+        float: none
+    }
+    .Buildo-section-title {
+        margin-bottom: 10%
+    }
+    .Buildo-mainmenu {
+        display: none
+    }
+    header .Buildo-logo {
+        padding: 26px 0 26px 30px;
+        text-align: left;
+    }
+    .seacrh_li {
+        display: none !important
+    }
+    .Buildo-logo img {
+        z-index: 9999
+    }
+    .Buildo-header-top-area {
+        text-align: center
+    }
+    .header-top-language {
+        margin: 10px 0
+    }
+    .single-top-right {
+        padding-right: 0;
+        margin: 5px 10px
+    }
+    .stuck {
+        position: static
+    }
+    .sticky {
+        transition: all 0s ease 0s
+    }
+    .Buildo-main-slide {
+        height: 410px
+    }
+    .blog-bg-overlay>p {
+        left: 35%;
+        position: absolute;
+        top: 42%;
+    }
+    .Buildo-caption-cell {
+        text-align: center
+    }
+    .Buildo-caption-cell h2 {
+        font-size: 30px
+    }
+    .Buildo-caption-cell p {
+        font-size: 17px;
+    }
+    .about-bottom-one>h3 {
+        font-size: 20px
+    }
+    .about_list {
+        margin-bottom: 20px
+    }
+    .project-btn>a {
+        display: block;
+        margin: 5px 0
+    }
+    .element-item {
+        width: 100%
+    }
+    .project-img-overlay>p {
+        line-height: 22
+    }
+    .single-pro-overlay i {
+        left: 47%;
+        position: absolute;
+        top: 42%;
+    }
+    .hire-icon {
+        display: none
+    }
+    .Buildo-hire-left>h3 {
+        left: 0;
+        text-align: center
+    }
+    .Buildo-hire-right {
+        text-align: center
+    }
+    .process-company .single-process {
+        width: 100%
+    }
+    .single-footer {
+        margin: 40px 0
+    }
+    .copyright-left {
+        text-align: center
+    }
+    .copyright-right {
+        text-align: center
+    }
+    .breadcromb-left,
+    .Buildo-About-promo-area,
+    .about-left>.Buildo-section-title {
+        text-align: center
+    }
+    .breadcromb-right {
+        text-align: center;
+        margin-top: 10px
+    }
+    .about-left>.Buildo-section-title .title-line {
+        margin: 0 auto
+    }
+    .about-left>h3 {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .about-right {
+        margin-top: 30px
+    }
+    .about-mission-text,
+    .about-mission-list {
+        margin-top: 30px
+    }
+    .project-btn {
+        margin-top: 0
+    }
+    .single-pro-overlay {
+        padding: 100px
+    }
+    .project-text-sin:first-child {
+        margin-top: 20px
+    }
+    .mobile-top {
+        margin-top: 30px
+    }
+    .mobile-bottom {
+        margin-bottom: 30px
+    }
+    .single-service-float>h3 {
+        font-size: 20px;
+        margin-bottom: 10px
+    }
+    .notfound>h2 {
+        font-size: 100px;
+        line-height: 100px;
+        margin-bottom: 15px
+    }
+    .notfound>h3 {
+        font-size: 19px
+    }
+    .coupon-cart-left {
+        text-align: center
+    }
+    .coupon-cart-right,
+    .proceed-checkout {
+        text-align: center;
+        margin-top: 20px
+    }
+    .coupon-cart-right>a {
+        margin-right: 0
+    }
+    .single-shipping input {
+        margin-bottom: 10px
+    }
+    .shipping-submit {
+        text-align: center
+    }
+    .single-shipping button {
+        float: none;
+        margin-right: 0
+    }
+    .checkout-form-right {
+        margin-bottom: 30px
+    }
+    .Buildo-login {
+        margin-top: 30px
+    }
+    .shorting {
+        text-align: center
+    }
+    .shorting form {
+        float: none
+    }
+    .shop-overlay-1 {
+        top: 35%
+    }
+    .single-shop-text {
+        margin-top: 20px
+    }
+    .Buildo-blog-share>h3 {
+        font-size: 18px;
+        margin-right: 5px
+    }
+    .Buildo-blog-share>a {
+        margin: 0 2px
+    }
+    .single-blog-item-date>p {
+        bottom: -25px;
+        font-size: 16px;
+        height: 65px;
+        width: 65px
+    }
+    .single-blog-item-date>p>span {
+        font-size: 20px;
+        line-height: 22px
+    }
+    .blog-title>h3 {
+        margin-top: 30px
+    }
+    .single-comment-item img {
+        margin-bottom: 20px
+    }
+    .comment-list ul ul {
+        margin-left: 40px
+    }
+    .Buildo-leave-comment input[type="text"],
+    .Buildo-leave-comment input[type="email"] {
+        width: 100%
+    }
+    .Buildo-leave-comment textarea {
+        width: 100%
+    }
+    .Buildo-contact-desc>h3 {
+        font-size: 20px
+    }
+    .Buildo-contact-form-right>form {
+        margin-top: 50px
+    }
+}
